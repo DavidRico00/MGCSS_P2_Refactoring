@@ -8,7 +8,7 @@ public class GameBoardJail extends GameBoard {
 		PropertyCell blue3 = new PropertyCell();
 		PropertyCell green1 = new PropertyCell();
 		PropertyCell green2 = new PropertyCell();
-		Cell jail = new JailCell();
+		IOwnable jail = new JailCell();
 		GoToJailCell goToJail = new GoToJailCell();
 		
 		blue1.setName("Blue 1");
