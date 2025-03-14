@@ -12,7 +12,7 @@ public class GameBoardFull extends GameBoard {
         CardCell c1 = new CardCell(Card.TYPE_CHANCE, "Chance 1");
         PropertyCell lb2 = new PropertyCell();
         PropertyCell lb3 = new PropertyCell();
-        JailCell jail = new JailCell();
+        Cell jail = new JailCell();
         PropertyCell p1 = new PropertyCell();
         UtilityCell u1 = new UtilityCell();
         PropertyCell p2 = new PropertyCell();
